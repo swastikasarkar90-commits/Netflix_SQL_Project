@@ -13,7 +13,7 @@ List and analyze content based on release years, countries, and durations.
 Explore and categorize content based on specific criteria and keywords.
 
 ## Schema
-'''SQL
+
 CREATE TABLE netflix_1 (
 show_id	VARCHAR(20) PRIMARY KEY,
 typess VARCHAR(50),
@@ -28,7 +28,7 @@ duration VARCHAR(15),
 listed_in VARCHAR(100),
 descriptions VARCHAR(300)
 );
-'''
+
 
 ## Business Problem and Solution
 SELECT COUNT(*) as total_content
