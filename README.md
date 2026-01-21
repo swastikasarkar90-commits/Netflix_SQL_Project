@@ -35,9 +35,11 @@ descriptions VARCHAR(300)
 
 
 ## Business Problem and Solution
+
+'''sql
 SELECT COUNT(*) as total_content
 FROM netflix_1;
-
+'''
 
 ### Find out all types from the dataset
 SELECT 
